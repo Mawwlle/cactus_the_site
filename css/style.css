@@ -1,0 +1,311 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+  background: #F5F5F5;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
+ /* font-family: 'Open Sans', sans-serif;*/
+}
+
+nav{
+	width: 100%;
+	margin:auto;
+	transition: top 0.3s;
+	position: relative;
+}
+
+
+
+.topline{
+	display: flex;
+	background: #F5F5F5;
+	justify-content: space-around;
+}
+
+.topline a{
+	text-decoration: none;
+	font-size: 1rem;
+	margin-top: 3px;
+	margin-bottom: .1%;
+	padding: 0% ;
+	color: #212121;
+
+}
+
+.topnav{
+	padding-right: 1.5%;
+	height: 4rem;
+	display: flex;
+	/*background: #616161;*/
+	background: #212121;
+	margin: auto;
+	font-size: 1.5rem;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+}
+
+
+.topnav a{
+
+	color:#F5F5F5;
+	padding:0.9rem;
+	text-decoration: none;
+		opacity: .6;
+}
+
+.topnav a:hover{
+	background: #424242;
+	border-bottom: 4px solid #0091EA;	opacity: 1;
+}
+
+.topnav input[type=text]{
+	padding:6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+	padding-right: 35%;
+	margin-bottom: 10px;
+}
+
+
+
+
+/*Это поиск*/
+
+form{
+	margin-left: 3%;
+    position: relative;
+    top: 39%;
+    /*left: 50%;*/
+    transform: translate(-0%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding:11px 0px 0px 1px;
+
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: .8em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 100%;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: #07051a;
+    color: white;
+}
+
+.gg{
+	margin-top: 1%;
+}
+
+.bg-image {
+  height: 50%; 
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image img{
+	width: 100%;
+	height: auto;
+	padding-top: .1%;
+}
+
+#bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: .3s;
+}
+
+
+
+
+.bg-block-l{
+	position: absolute;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 320px;
+	margin: 20%;
+
+	border-radius: 7px;
+	opacity: 0;
+	
+	text-align: center;
+	margin-left: 2%;
+	font-size: 2rem;
+
+}
+.bg-block-r{
+	position: absolute;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 320px;
+	margin: 20%;
+	border-radius: 7px;
+	opacity: 0;	
+	text-align: center;
+	left: 48%;
+	font-size: 2rem;
+} 
+
+.bg-block-l, .bg-block-r{
+	display: flex;
+	flex-direction: column;
+	background: #d7f7f5;
+}
+
+.bg-block-l a, .bg-block-r a{
+	padding-top: 30px;
+	font-size: 1rem;
+	color: #5ca0d3;
+}
+
+
+footer img{
+	width: 100%;
+	height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+ .bg-text{
+  	font-size: 40px;
+    border: 7px solid #f1f1f1;
+    width: 200px;
+    padding: 10px;}
+}
+
+@media only screen and (max-width: 800px) {
+  .bg-text{
+  	font-size: 30px;
+    border: 5px solid #f1f1f1;
+    width: 150px;
+    padding: 10px;}
+
+}
+
+
+
+
+/*Это скроллбар*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  height: 10px; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
