@@ -17,12 +17,11 @@
     
 </head>
 <body>
-
 	<header>
     		<div class="topline">
     			<a href="about us">ABOUT US</a>
 				<a href="korzina.html">BAG</a>
-				<a href="/account.php">PROFILE</a>
+				<a href="account.html">PROFILE</a>
     		</div>
 
     		<nav role="navigation">
@@ -40,78 +39,95 @@
     		</nav>	
     </header>
     <main>
-        		
-		<div class="gg">
+	        		
+			<div class="gg">
 
-			<div class="bg-image" ><img src="index/7.jpeg" alt=""></div>
-			<marquee behavior="scroll" direction="right" scrollamount="10">
-			CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS 
-			</marquee> 
+				<div class="bg-image" ><img src="index/7.jpeg" alt=""></div>
+				<marquee behavior="scroll" direction="right" scrollamount="10">
+				CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS 
+				</marquee> 
 
-			<div class="bg-block-r" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-				SPRING SALES <br> -50% <br> <a href="#">SHOP NOW</a>
-			</div>
-			<div class="bg-block-l" data-aos="fade-down" data-aos-anchor-placement="center-bottom">
-				NEW <br> COLLECTION <br> <a href="#">SHOP NOW</a>
-			</div>
-			<div class="bg-image"><img src="index/2.jpeg" alt=""></div>
+				<div class="bg-block-r" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+					SPRING SALES <br> -50% <br> <a href="#">SHOP NOW</a>
+				</div>
+				<div class="bg-block-l" data-aos="fade-down" data-aos-anchor-placement="center-bottom">
+					NEW <br> COLLECTION <br> <a href="#">SHOP NOW</a>
+				</div>
+				<div class="bg-image"><img src="index/2.jpeg" alt=""></div>
 
-			<marquee behavior="scroll" direction="left" scrollamount="10">
-			CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS 
-			| CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			 CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			  CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			   CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS 
-			</marquee>
+				<marquee behavior="scroll" direction="left" scrollamount="10">
+				CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS 
+				| CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
+				 CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
+				  CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
+				   CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS 
+				</marquee>
 
-			<div class="bg-block-r" data-aos="fade-right" data-aos-anchor-placement="center-bottom">I LOVE YOU</div>
-			<div class="bg-block-l" data-aos="fade-left" data-aos-anchor-placement="center-bottom">I LOVE YOU</div>
-			<div class="bg-image"><img src="index/3.jpeg" alt=""></div>
+				<div class="bg-block-r" data-aos="fade-right" data-aos-anchor-placement="center-bottom">I LOVE YOU</div>
+				<div class="bg-block-l" data-aos="fade-left" data-aos-anchor-placement="center-bottom">I LOVE YOU</div>
+				<div class="bg-image"><img src="index/3.jpeg" alt=""></div>
 
-			<marquee behavior="scroll" direction="right" scrollamount="10">
-			CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS 
-			| CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			 CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			  CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			   CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS  
-			</marquee>			
-			<div class="bg-block-r" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">I LOVE YOU</div>
-		<!-- <div class="bg-block-l" data-aos="zoom-in-down" data-aos-anchor-placement="center-bottom">I LOVE YOU</div> -->
-			<div class="bg-image"><img src="index/8.jpeg" alt=""></div>
+				<marquee behavior="scroll" direction="right" scrollamount="10">
+				CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS 
+				| CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
+				 CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
+				  CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
+				   CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS  
+				</marquee>			
+				<div class="bg-block-r" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">I LOVE YOU</div>
+			
+				<div class="bg-image"><img src="index/8.jpeg" alt=""></div>
 
-			<marquee behavior="scroll" direction="left" scrollamount="10">
-			CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS 
-			| CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			 CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			  CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			   CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS  
-			</marquee>
+				<marquee behavior="scroll" direction="left" scrollamount="10">
+				CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS 
+				| CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
+				 CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
+				  CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
+				   CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS  
+				</marquee>
 
-	<!-- <div class="bg-block-r" data-aos="fade-down-left" data-aos-anchor-placement="center-bottom">I LOVE YOU</div> -->
-			<div class="bg-block-l" data-aos="fade-down-right" data-aos-anchor-placement="center-bottom">I LOVE YOU</div>
-			<div class="bg-image"><img src="index/5.jpeg" alt=""></div>
+				<div class="bg-block-l" data-aos="fade-down-right" data-aos-anchor-placement="center-bottom">I LOVE YOU</div>
+				<div class="bg-image"><img src="index/5.png" alt=""></div>
 
-			<marquee behavior="scroll" direction="right" scrollamount="10">
-			CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS 
-			| CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			 CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			  CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS |
-			   CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS | CACTUS  
-			</marquee>
+				<div class="bg-text" id="bg-text"><p>CACTUS</p></div>
+			
+		<footer>
+			
+				
 
-			<div class="bg-block-r" data-aos="zoom-out-right" data-aos-anchor-placement="center-bottom">I LOVE YOU</div>
-			<div class="bg-block-l" data-aos="zoom-out-left" data-aos-anchor-placement="center-bottom">I LOVE YOU</div>
-			<div class="bg-image"><img src="index/6.jpeg" alt=""></div>
+				<div class="f">
+					
+						
+							<ul class="main-ul">
+								<li> <a href="#">HOME</a> </li>
+								<li><a href="#">INFO</a></li>
+								<li><a href="#">MAN</a></li>
+								<li><a href="#">WOMAN</a></li>
+								<li><a href="#" >CONTACT</a></li>
+								<li class="contactaa"> /</li>
+							</ul>
+						
 
-			<div class="bg-text" id="bg-text"><p>CACTUS</p></div>
 
-		
-	<footer>
-		<div class="f">
-			<div class="f-bg-img" ><img src="index/footer.jpeg" alt="" ></div>
-		</div>	
-	</footer>
-		
+						
+							<div class="contact">
+								<ul>
+									<li><a href="#">INSTAGRAM</a></li>
+									
+									<li><a href="#">VKONTAKTE</a></li>
+									<li><a href="#">TWITTER</a></li>
+									
+									<li><a href="#">TELEGRAM</a></li>
+								</ul>
+							</div>
+						
+						
+					
+				</div>
+
+				<div class="f1">LIPETSK 2019</div>
+			
+		</footer>		
 	</main>
 
 
