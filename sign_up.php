@@ -3,7 +3,7 @@
    
     $data=$_POST;
     
-    if( isset($data ['do']) ){//Проверка того что кнопка нажата(isset-cуществует перменная do =>нажата кнопка =>регаем)
+    if( isset($data ['do_signup']) ){//Проверка того что кнопка нажата(isset-cуществует перменная do =>нажата кнопка =>регаем)
         $errors=array();
         
         
@@ -16,12 +16,18 @@
         if($data['password'] == '' ){
             $errors[]='Введите пароль!';
         }
+        if (R::count('users',"login = ?",array($data['login']))>0){
+            $errors[]='Пользователь с таким логином существует';
+        }
+        if (R::count('users',"email = ?",array($data['email']))>0){
+            $errors[]='Пользователь с таким Email существует';
+        }
        // $isConnected = R::testConnection();
         if( empty($errors) ){//Если массив с ошибками пуст,всё хорошо-регестрируем
             $user = R::dispense( 'users' );
            $user->login = $data['login'];
            $user->email = $data['email'];
-           $user->password = $data['password'];
+           $user->password = password_hash($data['password'],PASSWORD_DEFAULT);
            R::store($user);
            echo '<div style="color:green;">Вы успешно зарегистрированы!</div><hr>';
         }else{
@@ -41,5 +47,5 @@
         <p>
         <input type="password" name="password" placeholder="Password">
         </p>
-        <button type="submit" name="do">Отправить</button>
+        <button type="submit" name="do_signup">Зарегестрироваться</button>
     </form>
