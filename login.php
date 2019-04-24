@@ -5,7 +5,6 @@
 
         $errors=array();
         $user=R::findOne('users','login = ?',array($data['login']));
-       
         if($user){
        
             //логин существует
@@ -14,6 +13,8 @@
                
 
                 $_SESSION['logged_user']=$user;
+                header("Location: /account.php");
+                exit(); 
                 echo 'Вы авторизованы';
              
 
@@ -35,5 +36,6 @@
         <p>
         <input type="password" name="password" placeholder="Password">
         </p>
+    <div>Нет аккаунта? <a href="/sign_up.php">Зарегистрироваться</a></div>
         <button type="submit" name="do_login" >Войти</button>
     </form>

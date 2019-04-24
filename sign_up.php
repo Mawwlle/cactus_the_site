@@ -29,7 +29,8 @@
            $user->email = $data['email'];
            $user->password = password_hash($data['password'],PASSWORD_DEFAULT);
            R::store($user);
-           echo '<div style="color:green;">Вы успешно зарегистрированы!</div><hr>';
+           header("Location: /hello.php");
+           exit();           
         }else{
             echo '<div style="color:red;">'.array_shift($errors).'</div><hr>';
  
@@ -47,5 +48,6 @@
         <p>
         <input type="password" name="password" placeholder="Password">
         </p>
+        <div>Уже есть аккаунт? <a href="/login.php">Войти</a></div>
         <button type="submit" name="do_signup">Зарегестрироваться</button>
     </form>
