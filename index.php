@@ -21,12 +21,12 @@
     		<div class="topline">
     			<a href="about us">ABOUT US</a>
 				<a href="korzina.html">BAG</a>
-				<a href="account.html">PROFILE</a>
+				<a href="account.php">PROFILE</a>
     		</div>
 
     		<nav role="navigation">
     		  <div class="topnav">
-	    		<a href="index.html">WOMAN</a>
+	    		<a href="index.php">WOMAN</a>
 	    		<a href="PROJECTS.html">MAN</a>
 	    		
 				<form action="">

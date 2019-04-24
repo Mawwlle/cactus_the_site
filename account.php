@@ -2,7 +2,7 @@
  if(!isset($_SESSION['logged_user'])){ 
      if(!isset($_SESSION['inf_user'])){
      header("Location: /login.php");
- exit(); 
+     exit(); 
      }
     }
 ?>

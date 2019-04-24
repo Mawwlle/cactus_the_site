@@ -24,6 +24,7 @@ require "db.php";
             $inf->place = $data['place'];
             $inf->postindex = $data['index'];
             R::store($inf);
+            $_SESSION['inf_user']=$inf;
             header("Location: /account.php");
             exit();
             
