@@ -1,1 +1,1 @@
-# two_morons_is_power
+A project developed for educational purposes.
